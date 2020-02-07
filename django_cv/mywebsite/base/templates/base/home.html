@@ -1,0 +1,88 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hendy Nurfrianto</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/PP.jpg' %}" >
+					<hr>
+					<h4>Hi I'm Hendy</h4>
+					<p>I love coding, doing research and collaborating</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>About Me..</h4>
+					<hr>
+					<p>hello my name is hendy nurfrianto, I'm interested in Node JS and golang developer with strong passion to learn new things. I am familiar with a few JS Nodes and Golang Frameworks, and I have developed an API using Express,for Golang I have developed an API using Gin,for python I developed Api using Django,and for front end i using react js. Currently I am interested and learning about microservices,design pattern and little about mobile programing.</p>
+
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+						<li><img class="social" src="{% static 'images/youtube.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My last Job as a Developer</h5>
+					<hr>
+					<p>Full stack developer at Celerates</p>
+					<p>Designed, built website and learning something new in industry IT </p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Python, Django, HTML/CSS, JavaScript/Jquery, React,MySql, Postgres, Golang and APIs, JavaScript
+					and  Working on Node JS, Mongo DB,Machine Learning and AR and VR</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>Make Website</p>
+
+					<p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+				<hr>
+				<p>
+					I have goals in my career, I want to create a framework that is useful in the IT industry and make VR / AR that is useful for all industries, and goals in the near future I want to understand more in microservices</p>
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
